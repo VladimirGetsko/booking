@@ -1,0 +1,135 @@
+h2,h3 {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+.cart {
+  background: #FFFFFF;
+  border: 1px solid #C9C9C9;
+  border-radius: 10px;
+  width: 294px;
+  height: 274px;
+  padding: 8px 16px;
+}
+
+
+.cart__titles {
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.title-city {
+  width: 144px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  color: #0090FF;
+  margin: 0 15px 0 0;
+}
+
+.title-country {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 13px;
+  color: #0090FF;
+}
+
+.cart__main {
+  display: flex;
+  align-items: center;
+  margin: 0 0 21px 0;
+}
+
+.city__img {
+  border-radius: 10px;
+  width: 144px;
+  margin: 0 15px 0 0;
+}
+
+.bags-prise {
+  width: 100%;
+}
+
+.bag-price__row {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 15px;
+}
+
+.bag-price__row:last-child {
+  margin-bottom: 0;
+}
+
+.bag-price {
+  display: block;
+}
+
+.bag-icons {
+  width: 63px;
+}
+
+.bag-icons img {
+  cursor: pointer;
+}
+
+.bag-hostel {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.bag-hostel img {
+  width: 17px;
+  display: block;
+  margin-right: 4px;
+}
+
+.bag-hostel__text {
+  font-weight: bold;
+  font-size: 8px;
+  display: inline-block;
+  width: 32px;
+  line-height: 1;
+}
+
+.lists-body {
+  display: flex;
+  align-items: center;
+}
+
+.list-body__left {
+  width: 144px;
+  margin: 0 15px 0 0;
+}
+
+.cart-rent__list li{
+  margin: 0 0 9px 0;
+  line-height: 0.8;
+}
+
+.cart-rent__list li:last-child {
+  margin-bottom: 0;
+}
+
+.cart-rent__link {
+  color: inherit;
+  font-size: 10px;
+  cursor: pointer;
+}
+
+
+
